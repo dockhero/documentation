@@ -6,3 +6,5 @@ If you think of Heroku add-ons in general as of boxes with some useful mechanism
 
 ![](https://static.tildacdn.com/tild3434-6163-4238-a463-623133313634/heroku_dockhero_2_padding.png)
 
+When you add Dockhero add-on to your Heroku application, a new Docker cluster \(currently consisting of a single Swarm master\) is created and ..... 
+
