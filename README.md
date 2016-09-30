@@ -17,7 +17,13 @@ sh$ docker ps
 CONTAINER   ID   IMAGE   COMMAND   CREATED   STATUS   PORTS   NAMES
 ```
 
+If in your console you need to quickly switch between the local Docker and Dockhero, you can use shortcuts: 
+
+```
+heroku dh:docker <command>            # call docker <command> on Dockhero cluster
+```
 
 
-If in your console you need to quickly switch between the local Docker and Dockhero, you can use 
+
+
 
