@@ -10,7 +10,7 @@ When you add Dockhero add-on to your Heroku application, a new Docker cluster \(
 
 ## CLI
 
-We developed a CLI plugin which configures your Docker client to talk to Dockhero instead of your default machine:
+We developed a CLI plugin which makes your Docker client talk to Dockhero instead of your default machine:
 
 ```bash
 $ heroku dh:sh          
@@ -28,9 +28,9 @@ heroku dh:docker <command>            # execute docker <command> on Dockhero clu
 heroku dh:compose <command>           # call docker-compose <command> on Dockhero cluster
 ```
 
-The `dh:compose` shortcut assumes that your stack is named `dockhero-compose.yml`. 
+The `dh:compose` shortcut assumes that your stack is named `dockhero-compose.yml`.
 
-It also makes your Heroku environment variables available via variables substitution, so that you don't have to commit 
+It also makes your Heroku environment variables available via variables substitution, so that you don't have to commit
 
 ## More than "just Docker"
 
