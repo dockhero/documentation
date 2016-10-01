@@ -26,7 +26,11 @@ It takes 2-3 minutes to spin up and configure an EC2 instance with Docker server
 $ heroku plugins:install dockhero
 ```
 
-The plugin configures your Docker client to talk to Dockhero rather than your default machine. Most of the time you will use 
+The plugin configures your Docker client to talk to Dockhero rather than your default machine. Most of the time you will use `heroku dh:compose` shortcut.
 
 
+## dockhero-compose.yml
 
+```bash
+$ heroku dh:generate helloworld 
+```
