@@ -30,7 +30,7 @@ heroku dh:compose <command>           # call docker-compose <command> on Dockher
 
 The `dh:compose` shortcut assumes that your stack is named `dockhero-compose.yml`.
 
-It also makes your Heroku environment variables available via variables substitution, so that you don't have to commit your secrets into source control.
+It also makes your Heroku environment variables available via variables substitution, so that you don't have to commit your secrets into Git.
 
 ## More than "just Docker"
 
