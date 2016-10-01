@@ -36,14 +36,14 @@ $ heroku dh:generate helloworld
 
 This command writes a stack definition into `dockhero-compose.yml`:
 
-```yanl
+```yaml
 # dockhero-compose.yml
 version: "2"
 services:
- app:
- image: dockhero/dockhero-docs:hello
- ports:
- - "80:8080"
+ web:
+   image: dockhero/dockhero-docs:hello
+   ports:
+     - "80:8080"
 ```
 
 See a list of available generators [here.](https://github.com/dockhero/generators)
@@ -52,7 +52,18 @@ See a list of available generators [here.](https://github.com/dockhero/generator
 
 ```bash
 $ heroku dh:compose up -d
+Creating network "dockhero_default" with driver "bridge"
+Creating dockhero_web_1
+
+$ heroku dh:compose ps
+Name              Command                        State        Ports
+-----------------------------------------------------------------------------------
+dockhero_web_1    /bin/sh -c http-server /app    Up      54.174.36.199:80->8080/tcp
+
+$ heroku logs -p dockhero --tail
 ```
 
-Thi
+This launches your stack on the EC2 instance.
+
+TODO: Limits
 
