@@ -39,6 +39,10 @@ Dockhero comes with a few features which help your microservice fit comfortably 
 * **The logs are streamed into Heroku logs.** If for some reason you want to run apache or nginx as a microservice, you'll find  access.log \/ error.log among your Heroku logs; 
 * **Heroku environment variables are available in dockhero-compose.yml. **This way you store the configuration of your microservice "the Heroku way" and don't commit your secrets into git.
 * **Monitoring and Alerts. **You'll be notified if your app consumes more than 90% of available memory or disk space. You can enable Newrelic integration to get detailed resource usage history.
-* **CDN and SSL termination. **This is especially useful when you consume the microservice directly on the front-end
-* **EBS volumes with daily backups.** This is currently under development. We created a volume driver which mounts your Docker volumes to Amazon's EBS.
+* **CDN and SSL termination. **This is especially useful when you consume the microservice directly from the front-end
+
+Coming soon:
+
+* **EBS volumes with daily backups.** We created a volume driver which mounts your Docker volumes to Amazon's EBS.
+* **Security** **Alerts**. Get notified whenever a security issue is reported in an image from your stack
 
