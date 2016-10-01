@@ -15,7 +15,7 @@ $ heroku dh:compose up -d              # run the stack
 $ heroku addons:create dockhero
 ```
 
-It takes 2-3 minutes to spin up and configure an EC2 instance with Docker server and monitoring tools. You can track the provisioning status in add-on dashboard. When the provisioning is done, two environment variables are set in Heroku config:
+It takes 2-3 minutes to spin up and configure an EC2 instance with Docker server and monitoring tools. You can track the provisioning status in add-on dashboard. When the provisioning is done, the following environment variables are set in Heroku config:
 
 * DOCKHERO\_HOST - this is the address of the machine. It can be used to connect to the services you will launch there
 * DOCKHERO\_CERTS\_URL - this one is used internally by the CLI plugin to download the certificates and connect to Docker
