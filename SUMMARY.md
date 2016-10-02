@@ -2,7 +2,7 @@
 
 * [Overview](README.md)
 * [Quickstart](chapter1.md)
-* Monitoring and Limits
+* [Monitoring](monitoring-and-limits.md)
 * Stackfile
 * CLI plugin reference
 
