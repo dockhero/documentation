@@ -1,4 +1,3 @@
-
 # SSL Endpoints
 
 Sometimes you'll need your microservice to have a valid SSL certificate. For example, if you consume the microservice directly from the front-end, you'll get "Mixed Content" warning or error if your site uses This comes handy when you need to consume the micro-service directly from the front-end.
