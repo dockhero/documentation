@@ -5,4 +5,5 @@
 * [Monitoring](monitoring-and-limits.md)
 * Stackfile
 * CLI plugin reference
+* [SSL Endpoints](ssl-termination.md)
 
