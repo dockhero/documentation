@@ -19,7 +19,7 @@ It takes 2-3 minutes to spin up and configure an EC2 instance with Docker server
 
 * DOCKHERO\_HOST - this is the address of the machine. It can be used to connect to the services you will launch there
 * DOCKHERO\_CERTS\_URL - this one is used internally by the CLI plugin to download the certificates and connect to Docker
-* DOCKHERO_FULL_SSL_URL and DOCKHERO_FLEXIBLE_SSL_URL - two HTTP/2 SSL endpoints which proxy traffic to your stack (see SSL termination)
+* DOCKHERO_FULL_SSL_URL and DOCKHERO_FLEXIBLE_SSL_URL - two HTTP/2 SSL endpoints which proxy traffic to your stack (see [SSL Endpoints](/ssl-termination.md))
 
 
 ## Installing CLI plugin
